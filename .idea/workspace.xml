@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e35adfc5-21d1-43bf-913f-959aea2102a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day21/src/Treasure/DigTreasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day21/src/Treasure/Treasure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/day21/Treasure/DigTreasure$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/day21/Treasure/DigTreasure.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +200,7 @@
       <updated>1544089831162</updated>
       <workItem from="1544089834399" duration="96000" />
       <workItem from="1544089992825" duration="22000" />
-      <workItem from="1544090041713" duration="5017000" />
+      <workItem from="1544090041713" duration="5482000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1544091022646</created>
@@ -210,11 +209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544091022646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1544095788243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544095788243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5135000" />
+    <option name="totallyTimeSpent" value="5600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,7 +272,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
