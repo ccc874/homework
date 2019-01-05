@@ -1,0 +1,146 @@
+一、
+1.
+function indexOf(arr,item){
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]==item){
+            console.log(i);
+        }
+    }
+    return -1;
+}
+var arr=[1,2,3,4,5]; 
+index of(arr,1);
+2.
+var a=0;
+function sum(arr){
+    for(var i=0;i<arr.length;i++){
+        a+=arr[i];
+    }
+    console.log(a);
+}
+var arr=[1,2,3,4,5];
+sum(arr);
+3.
+var arr1=[];
+function remove(arr,item){
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]!=item){
+            arr1.push(arr[i]);
+        }  
+    }
+    console.log(arr1);
+}
+var arr=[1,2,3,3,4,3,4,5];
+remove(arr,3);
+4.
+function removeWithoutCopy(arr,item){
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]==item){
+            arr.splice(i,1);
+        }   
+    }
+    console.log(arr); 
+}
+var arr=[1,1,2,3,3,4,4,5];
+removeWithoutCopy(arr,3);
+5.
+function append(arr,item){
+    arr.push(item);
+    return arr;
+}
+var arr=[1,2,3,4,5];
+append(arr,10);
+6.
+function truncate(arr){
+     arr.pop();
+     return arr;
+}
+var arr=[1,2,3,4,5];
+truncate(arr);
+7.
+function prepend(arr,item){
+    arr.unshift(item);
+    return arr;
+}
+var arr=[1,2,3,4,5];
+prepend(arr,10);
+8.
+function curtail(arr){
+    arr.shift();
+    return arr;
+}
+var arr=[1,2,3,4,5];
+curtail(arr);
+9.
+function concat(arr1,arr2){
+  console.log(arr1.concat(arr2));
+   
+}
+var arr1=[1,2,3,4,5];
+var arr2=[6,7,8,9,10];
+concat(arr1,arr2);
+10.
+var arr1=[];
+function insert(arr,item,index){
+     for(var i=0;i<arr.length;i++){
+         if(i==index){
+             arr1.push(arr[i]);
+             arr1.push(item);
+         }else{
+             arr1.push(arr[i]);
+         }
+     }
+     return arr1;
+}
+var arr=[1,2,3,4,5];
+insert(arr,10,2);
+11.
+function count(arr,item){
+    var count=0;
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]==item){
+            count++;
+        }
+    }
+    console.log(count);
+}
+var arr =[0,1,2,3,4,3,3,3,3,5];
+count(arr,3);
+12.
+function sortNumber(a,b){return a-b;}
+function duplicates(arr){
+    var arr1=[];
+    arr.sort(sortNumber);
+    for (var i = 0; i < arr.length; i++) {
+        if (arr.indexOf(arr[i]) !== arr.lastIndexOf(arr[i]) && arr1.indexOf(arr[i]) === -1) {
+          arr1.push(arr[i]);
+        }
+        i = arr.lastIndexOf(arr[i])
+      }
+      console.log(arr1);
+    }
+
+}
+var arr =[0,1,2,3,4,3,32,2,3,2,3,5];
+duplicates(arr);
+13.
+function square(arr){
+    for(var i=0;i<arr.length;i++){
+		arr[i]*=arr[i];
+	}
+	console.log(arr);
+}
+var arr=[1,2,3,4,5];
+square(arr);
+14.
+function findAllOccurrences(arr,target){
+	var arr1=[];
+	for(var i=0;i<arr.length;i++){
+		if(arr[i]==target){
+			arr1.push(i);
+		}
+	}
+	console.log(arr1);
+}
+var arr=[1,2,3,4,5,6,1,7];
+findAllOccurrences(arr,1);

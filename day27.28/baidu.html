@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>百度一下，你就知道</title>
+  <style>
+  .a{color:blue;font-size:15px;font-weight:bold;}
+  #logo{text-align:center}
+  #logo1{text-align:right}
+  #width{width:270px}
+  #button{background-color:blue;color:white;height:34px;border:1px solid #2d78f4}
+  #text{type="text";width:570px;height:30px;}
+  .productions:hover{display:block}
+  #size{background-color:blue;font-size:15px;font-weight:bold;color:white;border:1px solid blue;width:66px;}
+  </style>
+  <script>
+   function fun1(){
+    document.getElementById("div1").style.display="block";
+   }
+   function fun2(){
+    document.getElementById("div1").style.display="none";
+   }
+  </script>
+ </head>
+
+ <body>
+ <div id="logo1" class="a">
+  <a href="news.baidu.com">新闻</a>&nbsp&nbsp&nbsp
+  <a href="http://www.hao123.com">hao123</a>&nbsp&nbsp&nbsp
+  <a href="v.baidu.com">视频</a>&nbsp&nbsp&nbsp
+  <a class="a" href="https://map.baidu.com/">地图</a>&nbsp&nbsp&nbsp
+  <a class="a" href="https://tieba.baidu.com">贴吧</a>&nbsp&nbsp&nbsp
+  <a onmouseover="fun1()" id="size">更多产品<a>
+  <div style="position:absolute;top:30px;right:7px;width:63px;height:500px;
+       background-color:rgb(245,245,245);display:none" id="div1" onmouseout="fun2() onmouseover="fun1()"">
+	   <a href="https://www.nuomi.com">糯米</a>
+	   <br>
+	   <a href="http://music.taihe.com/">音乐</a>
+	   <br>
+	   <a href="http://image.baidu.com/">图片</a>
+	   <br>
+	   <a href="https://wenku.baidu.com/">文库</a>
+	   <br>
+  </div>
+ </div>
+  
+  <div id="logo" >
+	<img src="1.png" width="270" />
+  </div>
+  
+  <div id="logo" >
+  <input id="text">
+  <input id="button" type="button" value="百度一下">
+  </div>
+  
+  <div id="logo" style="color:rgb(245,245,245);font-size:5px;margin-top:300px" >
+    <a href="news.baidu.com">把百度设为主页</a>&nbsp&nbsp&nbsp
+    <a href="http://www.hao123.com">关于百度</a>&nbsp&nbsp&nbsp
+    <a href="v.baidu.com">百度推广</a>&nbsp&nbsp&nbsp
+	<br>
+    <a href="https://map.baidu.com/">@abc</a>&nbsp&nbsp&nbsp
+    <a href="https://tieba.baidu.com">@fox</a>&nbsp&nbsp&nbsp
+  </div>
+ </body>
+</html>
